@@ -1,0 +1,156 @@
+'scopeName': 'source.sdl'
+'name': 'Senior SDL'
+'fileTypes': ['sdl']
+
+'patterns': [
+    {
+        'name': 'meta.domain.sdl'
+        'match': '\\b(domain)\\s+(\\w+)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+            '2':
+                'name': 'identifier.schema.definition.sdl'
+    },
+    {
+        'name': 'meta.service.sdl'
+        'match': '\\b(service)\\s+(\\w+)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+            '2':
+                'name': 'identifier.schema.definition.sdl'
+    },
+    {
+        'name': 'meta.endpoints.sdl'
+        'match': '\\b(endpoints)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.query.sdl'
+        'match': '\\b(query)\\s+(\\w+)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+            '2':
+                'name': 'identifier.schema.definition.sdl'
+    },
+    {
+        'name': 'meta.action.sdl'
+        'match': '\\b(action)\\s+(\\w+)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+            '2':
+                'name': 'identifier.schema.definition.sdl'
+    },
+    {
+        'name': 'meta.enumeration.sdl'
+        'match': '\\b(enumeration)\\s+(\\w+)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+            '2':
+                'name': 'identifier.schema.definition.sdl'
+    },
+    {
+        'name': 'meta.types.sdl'
+        'match': '\\b(types)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.record.sdl'
+        'match': '\\b(record)\\s+(\\w+)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+            '2':
+                'name': 'identifier.schema.definition.sdl'
+    },
+    {
+        'name': 'meta.entity.sdl'
+        'match': '\\b(entity)\\s+(\\w+)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+            '2':
+                'name': 'identifier.schema.definition.sdl'
+    },
+    {
+        'name': 'meta.in.sdl'
+        'match': '\\b(in)\\s+\{'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.out.sdl'
+        'match': '\\b(out)\\s+\{'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.integer.sdl'
+        'match': '\\b(integer)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.double.sdl'
+        'match': '\\b(double)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.string.sdl'
+        'match': '\\b(string)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.boolean.sdl'
+        'match': '\\b(boolean)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.date.sdl'
+        'match': '\\b(date)\\s+'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+        'name': 'meta.dateTime.sdl'
+        'match': '\\b(dateTime)'
+        'captures':
+            '1':
+                'name': 'keyword.definition.sdl'
+    },
+    {
+      'name': 'meta.description.sdl'
+      'begin': '"'
+      'end': '"'
+    },
+    {
+      'name': 'meta.attributes.sdl'
+      'match': '\\b(\\w+)\\s*:'
+      'captures':
+          '1':
+              'name': 'identifier.attributes.definition.sdl'
+    },
+    {
+      'name': 'meta.comment.sdl'
+      'begin': '//'
+      'end': '$'
+    }
+]

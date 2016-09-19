@@ -1,0 +1,17 @@
+{
+  "name": "atom-senior-sdl",
+  "version": "0.0.0",
+  "description": "SDL language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreireitz/atom-senior-sdl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreireitz/atom-senior-sdl/issues"
+  },
+  "license": "MIT"
+}
