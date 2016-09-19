@@ -137,7 +137,7 @@
                 'name': 'keyword.definition.sdl'
     },
     {
-      'name': 'meta.description.sdl'
+      'name': 'string.description.sdl'
       'begin': '"'
       'end': '"'
     },
